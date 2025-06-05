@@ -1,19 +1,19 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Aqui é a Classe.
+ * Definição da classe BeeWorld.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Leticia 
+ * @version 2025-06-04
  */
-public class MyWorld extends World
+public class BeeWorld extends World
 {
 
     /**
      * Constructor for objects of class MyWorld.
      * 
      */
-    public MyWorld()
+    public BeeWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(800, 600, 1); 
@@ -50,5 +50,12 @@ public class MyWorld extends World
         mosca.setLocation(75,548);
         mosca4.setLocation(120,487);
         mosca2.setLocation(120,539);
+        Duke duke = new Duke();
+        addObject(duke,219,205);
+        abelha.setLocation(84,152);
+        mosca4.setLocation(662,384);
+        mosca3.setLocation(494,114);
+        mosca5.setLocation(275,366);
+        mosca2.setLocation(507,521);
     }
 }
