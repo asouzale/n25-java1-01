@@ -11,9 +11,16 @@ public class Estudante {
 		nome = "Sem nome";
 		ra = 0;
 		nota = 0.0;
+		ehFumante = false;	
+			
+	}
+	
+	public Estudante (int ra, String nome) {
+		setRa(ra);
+		setNome(nome);
+		nota = 0;
 		ehFumante = false;
 		
-			
 	}
 	public String getNome() {
 		return nome;
@@ -39,5 +46,15 @@ public class Estudante {
 	public void setEhFumante(boolean ehFumante) {
 		this.ehFumante = ehFumante;
 	}
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "Nome:" + getNome() + "\n" + 
+				"Ra:" + getRa() + "\n" +
+		"Nota" + getNota() + "\n" +
+				"Fumante: " + isEhFumante();
+		
+	}
+	
 
 }
