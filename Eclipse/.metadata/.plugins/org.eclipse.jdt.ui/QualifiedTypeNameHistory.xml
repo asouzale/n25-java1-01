@@ -2,6 +2,6 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="br.com.senaisp.bauru.classes.Estudante"/>
     <fullyQualifiedTypeName name="jdk.internal.org.jline.terminal.TerminalBuilder.SystemOutput"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
